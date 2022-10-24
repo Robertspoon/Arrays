@@ -30,9 +30,6 @@ namespace Arrays
             weaponName[3] = "V.B.G.";
             weaponName[4] = "Trench gun";
 
-          
-
-
             int[] ammo; 
             ammo = new int[5];
             ammo[0] = 6;
@@ -40,19 +37,30 @@ namespace Arrays
             ammo[2] = 25;
             ammo[3] = 3;
             ammo[4] = 5;
+          
+
+
 
            
             Console.WriteLine(weaponName[weapon]);
             Console.WriteLine(ammo[weapon]);
+            Console.WriteLine();
             weapon = 3;
+            Console.WriteLine();
+            Console.WriteLine(weaponName[weapon]);
+            Console.WriteLine(ammo[weapon]);
+            Console.WriteLine();
+            weapon = 4;
+            Console.WriteLine();
             Console.WriteLine(weaponName[weapon]);
             Console.WriteLine(ammo[weapon]);
 
+
             Console.ReadKey(true);
         }
-        static void ShowAmmo()
+        static void Fire()
         {
-
+            
         }
     }
 }
