@@ -22,6 +22,13 @@ namespace Arrays
             //current weapon
             int weapon = 0; //0..4
 
+            string[] weaponName;
+            weaponName = new string[5];
+            weaponName[0] = "Pistol";
+            weaponName[1] = "A.D.";
+            weaponName[2] = "Laser rifle";
+            weaponName[3] = "V.B.G.";
+            weaponName[4] = "Trench gun";
 
             //ammo
 
@@ -35,8 +42,10 @@ namespace Arrays
             ammo[4] = 5;
 
             // show current weapon (without hardcoding)
+            Console.WriteLine(weaponName[weapon]);
             Console.WriteLine(ammo[weapon]);
             weapon = 3;
+            Console.WriteLine(weaponName[weapon]);
             Console.WriteLine(ammo[weapon]);
 
             Console.ReadKey(true);
