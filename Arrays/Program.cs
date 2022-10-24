@@ -19,8 +19,8 @@ namespace Arrays
             //3 very big gun
             //4 Trench gun
 
-            //current weapon
-            int weapon = 0; //0..4
+           
+            int weapon = 0; 
 
             string[] weaponName;
             weaponName = new string[5];
@@ -30,18 +30,18 @@ namespace Arrays
             weaponName[3] = "V.B.G.";
             weaponName[4] = "Trench gun";
 
-            //ammo
+          
 
 
-            int[] ammo; //array of integers; declaration
-            ammo = new int[5];// ubstantiation
-            ammo[0] = 6;//pistol
+            int[] ammo; 
+            ammo = new int[5];
+            ammo[0] = 6;
             ammo[1] = 2;
             ammo[2] = 25;
             ammo[3] = 3;
             ammo[4] = 5;
 
-            // show current weapon (without hardcoding)
+           
             Console.WriteLine(weaponName[weapon]);
             Console.WriteLine(ammo[weapon]);
             weapon = 3;
@@ -50,9 +50,10 @@ namespace Arrays
 
             Console.ReadKey(true);
         }
-        static void ShowCurrentWeaponAmmo()
+        static void ShowAmmo()
         {
 
         }
     }
 }
+
