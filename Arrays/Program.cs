@@ -55,33 +55,37 @@ namespace Arrays
             Description[4] = "Powerful shotgun useful for close combat";
 
 
-          
 
-
-
-
-
-
-
-
-            Console.WriteLine(weaponName[weapon]);
-            Console.WriteLine(ammo[weapon]);
+            Console.WriteLine("Current weapon: " + weaponName[weapon]);
+            Console.WriteLine("Ammo: " + ammo[weapon]);
             Console.WriteLine("Damage: " + damage[weapon]);
-            Console.WriteLine(Description[weapon]);
+            Console.WriteLine("Description: " + Description[weapon]);
+            Console.WriteLine();
+            weapon = 1;
+            Console.WriteLine("Current weapon: " + weaponName[weapon]);
+            Console.WriteLine("Ammo: " + ammo[weapon]);
+            Console.WriteLine("Damage: " + damage[weapon]);
+            Console.WriteLine("Description: " + Description[weapon]);
+            Console.WriteLine();
+            weapon = 2;
+            Console.WriteLine("Current weapon: " + weaponName[weapon]);
+            Console.WriteLine("Ammo: " + ammo[weapon]);
+            Console.WriteLine("Damage: " + damage[weapon]);
+            Console.WriteLine("Description: " + Description[weapon]);
             Console.WriteLine();
             weapon = 3;
             Console.WriteLine();
-            Console.WriteLine(weaponName[weapon]);
-            Console.WriteLine(ammo[weapon]);
+            Console.WriteLine("Current weapon: " + weaponName[weapon]);
+            Console.WriteLine("Ammo: " + ammo[weapon]);
             Console.WriteLine("Damage: " + damage[weapon]);
-            Console.WriteLine(Description[weapon]);
+            Console.WriteLine("Description: " + Description[weapon]);
             Console.WriteLine();
             weapon = 4;
             Console.WriteLine();
-            Console.WriteLine(weaponName[weapon]);
-            Console.WriteLine(ammo[weapon]);
+            Console.WriteLine("Current weapon: " + weaponName[weapon]);
+            Console.WriteLine("Ammo: " + ammo[weapon]);
             Console.WriteLine("Damage: " + damage[weapon]);
-            Console.WriteLine(Description[weapon]);
+            Console.WriteLine("Description: " + Description[weapon]);
             Console.WriteLine();
 
 
