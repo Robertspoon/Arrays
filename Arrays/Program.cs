@@ -37,31 +37,54 @@ namespace Arrays
             ammo[2] = 25;
             ammo[3] = 3;
             ammo[4] = 5;
-          
+
+            int[] damage;
+            damage = new int[5];
+            damage[0] = 35;
+            damage[1] = 300;
+            damage[2] = 15;
+            damage[3] = 250;
+            damage[4] = 100;
+
+            string[] Description;
+            Description = new string[5];
+            Description[0] = "Trusty side-arm";
+            Description[1] = "Weapon of mass destruction";
+            Description[2] = "High power laser rifle";
+            Description[3] = "Very Big Gun";
+            Description[4] = "Powerful shotgun useful for close combat"; 
 
 
 
-           
+
+
+
+
+
             Console.WriteLine(weaponName[weapon]);
             Console.WriteLine(ammo[weapon]);
+            Console.WriteLine("Damage: " + damage[weapon]);
+            Console.WriteLine(Description[weapon]);
             Console.WriteLine();
             weapon = 3;
             Console.WriteLine();
             Console.WriteLine(weaponName[weapon]);
             Console.WriteLine(ammo[weapon]);
+            Console.WriteLine("Damage: " + damage[weapon]);
+            Console.WriteLine(Description[weapon]);
             Console.WriteLine();
             weapon = 4;
             Console.WriteLine();
             Console.WriteLine(weaponName[weapon]);
             Console.WriteLine(ammo[weapon]);
+            Console.WriteLine("Damage: " + damage[weapon]);
+            Console.WriteLine(Description[weapon]);
+            Console.WriteLine();
 
 
             Console.ReadKey(true);
         }
-        static void Fire()
-        {
-            
-        }
+        
     }
 }
 
