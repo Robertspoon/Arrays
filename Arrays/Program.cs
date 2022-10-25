@@ -52,7 +52,10 @@ namespace Arrays
             Description[1] = "Weapon of mass destruction";
             Description[2] = "High power laser rifle";
             Description[3] = "Very Big Gun";
-            Description[4] = "Powerful shotgun useful for close combat"; 
+            Description[4] = "Powerful shotgun useful for close combat";
+
+
+          
 
 
 
